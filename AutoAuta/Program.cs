@@ -16,6 +16,7 @@ namespace AutoAuta
         {
             Weather[] wArr = {Weather.Zataženo, Weather.Deštivo, Weather.Kalamita};
             return wArr[r.Next(wArr.Length)];
+            
         }
 
 }
